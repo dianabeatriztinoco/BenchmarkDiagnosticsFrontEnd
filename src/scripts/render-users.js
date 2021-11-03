@@ -18,6 +18,8 @@ export async function renderUsers() {
     userUsername.innerHTML = userObj.username
     userCity.innerHTML = userObj.address.city
     userList.appendChild(userUsername)
+
+    
   })
 
 
